@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    background-color:palevioletred;
+    color: aliceblue;
+    padding: 30px;
+
+}
+li{
+    cursor: pointer;
+    padding: 25px;
+}
+li:hover{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 15px;
+}

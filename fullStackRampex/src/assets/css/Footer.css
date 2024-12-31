@@ -1,0 +1,42 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .footer-form label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .footer-form input,
+  .footer-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .footer-form button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .footer-form button:hover {
+    background-color: #21a1f1;
+  }
+  
