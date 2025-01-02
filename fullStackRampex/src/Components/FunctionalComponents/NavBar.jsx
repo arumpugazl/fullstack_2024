@@ -10,6 +10,11 @@ var NavBar=()=>{
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/gallery'>Gallery</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
+                    <li><Link to='/UseEffect'>UseEffect</Link></li>
+                    <li><Link to='/UseEffectAPI'>UseEffectAPI</Link></li>
+                    <li><Link to='/UseRef'>UseRef</Link></li>
+                    <li><Link to='/ExamResults'>UseContext</Link></li>
+                    <li><Link to='/UseMemo'>UseMemo</Link></li>
                 </ul>
             </nav>
         </header>
