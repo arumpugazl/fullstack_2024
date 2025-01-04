@@ -15,6 +15,9 @@ var NavBar=()=>{
                     <li><Link to='/UseRef'>UseRef</Link></li>
                     <li><Link to='/ExamResults'>UseContext</Link></li>
                     <li><Link to='/UseMemo'>UseMemo</Link></li>
+                    <li><Link to='/Login'>Login</Link></li>
+                    <li><Link to='/Signup'>Signup</Link></li>
+                    <li><Link to='/MongoDB'>MongoDB</Link></li>
                 </ul>
             </nav>
         </header>

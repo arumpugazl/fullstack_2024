@@ -13,6 +13,7 @@ import ExamResults from './Components/FunctionalComponents/UseContext';
 import UseMemo from './Components/FunctionalComponents/UseMemo';
 import Login from './Components/FunctionalComponents/Login';
 import Signup from './Components/FunctionalComponents/Signup';
+import MongoDB from './Components/FunctionalComponents/MongoDB';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
           <Route path="/ExamResults" element={<ExamResults/>}/>
           <Route path="/UseMemo" element={<UseMemo/>}/>
           <Route path="/Login" element={<Login />} />
-        <Route path="/Signup" element={<Signup />} />
+          <Route path="/Signup" element={<Signup />} />
+          <Route path="/MongoDB" element={<MongoDB/>}/>
         </Routes>
       </BrowserRouter>
       <ClassCompEg />
