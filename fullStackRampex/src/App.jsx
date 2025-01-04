@@ -11,6 +11,8 @@ import Useeffect from './Components/FunctionalComponents/UseEffectAPI'
 import UseRef from './Components/FunctionalComponents/UseRef'
 import ExamResults from './Components/FunctionalComponents/UseContext';
 import UseMemo from './Components/FunctionalComponents/UseMemo';
+import Login from './Components/FunctionalComponents/Login';
+import Signup from './Components/FunctionalComponents/Signup';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
           <Route path="/UseRef" element={<UseRef/>}/>
           <Route path="/ExamResults" element={<ExamResults/>}/>
           <Route path="/UseMemo" element={<UseMemo/>}/>
+          <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
         </Routes>
       </BrowserRouter>
       <ClassCompEg />
