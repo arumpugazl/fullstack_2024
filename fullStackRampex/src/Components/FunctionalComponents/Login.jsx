@@ -10,7 +10,7 @@ function Login() {
   
 var Login = async(event) => {
     event.preventDefault()
-    var req = await axios.post("http://localhost:3001/login", {
+    var req = await axios.post("https://fullstack-2024-6u5w.onrender.com/login", {
         email: email,
         password: password
     })
